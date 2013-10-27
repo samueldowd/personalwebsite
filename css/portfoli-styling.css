@@ -11,13 +11,17 @@ html, body, #pdf,object {
 	width: 100%;
 }
 .iframe {
-	max-width: 600pt;
+	max-width: 540pt;
 	margin: 0 auto;
 	min-height: 99%;
 }
 .iframe iframe {
-	min-width: 600pt;
+	min-width: 540pt;
 	margin: 0 auto;
+}
+.iframe-embed {
+	margin: 0 auto;
+	max-width: 595px;
 }
 .assignmentIcon {
 	display: inline;
